@@ -38,6 +38,7 @@ In this step, you specify what servers to migrate and then scan them to collect 
 
 1. Select **New job**, name the job, and then select whether to migrate Windows servers and clusters or Linux servers that use Samba. Then select **OK**.
 2. On the **Enter credentials** page, type admin credentials that work on the servers you want to migrate from, and then select **Next**. <br>If you're migrating from Linux servers, instead enter credentials on the **Samba credentials** and **Linux credentials** pages, including an SSH password or private key.
+For the Windows Servers, please make sure that the account being used has active directory read permissions.
 
 3. Select **Add a device**, type a source server name or the name of a clustered file server, and then select **OK**. <br>Repeat this for any other servers that you want to inventory.
 
